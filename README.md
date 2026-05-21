@@ -54,15 +54,13 @@ export HF_REPO_ID=kamalchaurasia-iitj/goodreads-reviews-genres
 
 This notebook was designed to run on **Kaggle Notebooks** (free GPU T4 x2, 30 h/week).
 
-Kaggle Notebook link: https://www.kaggle.com/code/kamalkumarg25ait2028/g25ait2028-mlops-a2-classifying-goodreads
-
 - Create Kaggle account
 - Import the `.ipynb` into Kaggle: **Notebooks → New Notebook → File → Import Notebook**
 - Enable GPU: **Settings → Accelerator → GPU T4 x2**
 - Enable Internet: **Settings → Internet ON** (required for HuggingFace and W&B)
 - Add secrets (`WANDB_API_KEY`, `HF_TOKEN`) via **Add-ons → Secrets**
 
-> **Public Kaggle notebook:** _[TODO: paste your public Kaggle notebook URL here]_
+> **Public Kaggle notebook:** https://www.kaggle.com/code/kamalkumarg25ait2028/g25ait2028-mlops-a2-classifying-goodreads
 
 ### 4. Run the notebook
 
