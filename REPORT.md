@@ -29,7 +29,7 @@ Each review is a short piece of text written by a reader. The model must read th
 
 ### Two notebooks were compared
 
-| | V2 Notebook | RoBERTa Notebook |
+| | DistilBERT Notebook | RoBERTa Notebook |
 |--|--|--|
 | Model | `distilbert-base-cased` | `FacebookAI/roberta-base` |
 | Parameters | ~66M | ~125M |
