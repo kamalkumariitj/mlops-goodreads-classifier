@@ -39,7 +39,7 @@ Each review is a short piece of text written by a reader. The model must read th
 
 ### Why RoBERTa was chosen
 
-**DistilBERT** (used in V2) is a smaller and faster version of BERT. It was created by "distilling" BERT — teaching a smaller model to behave like a bigger one. It is fast and uses less memory, but it loses some of the knowledge from the original BERT during that compression. Also, DistilBERT was trained with the **Next Sentence Prediction (NSP)** objective, which has been shown to actually make the model slightly worse at single-sentence tasks like ours — because it trains the model to also predict if two sentences follow each other, which is not useful here.
+**DistilBERT** is a smaller and faster version of BERT. It was created by "distilling" BERT — teaching a smaller model to behave like a bigger one. It is fast and uses less memory, but it loses some of the knowledge from the original BERT during that compression. Also, DistilBERT was trained with the **Next Sentence Prediction (NSP)** objective, which has been shown to actually make the model slightly worse at single-sentence tasks like ours — because it trains the model to also predict if two sentences follow each other, which is not useful here.
 
 **RoBERTa** (`FacebookAI/roberta-base`) fixes these problems. It was trained with:
 - No NSP objective — so every training step is focused entirely on understanding words, not sentence pairs.
