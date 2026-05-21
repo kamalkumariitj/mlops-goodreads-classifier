@@ -117,6 +117,6 @@ Full per-class breakdown is saved to `eval_report.json`.
 ## Links
 
 - **Hugging Face model:** https://huggingface.co/kamalchaurasia-iitj/goodreads-reviews-genres
-- **W&B project dashboard:** https://wandb.ai/kamalchaurasia-iit-jodhpur/MLOps-Goodreads-Reviews
+- **W&B project dashboard:** https://api.wandb.ai/links/kamalchaurasia-iit-jodhpur/g7obrq1z
 - **Kaggle notebook:** https://www.kaggle.com/code/kamalkumarg25ait2028/g25ait2028-mlops-a2-classifying-goodreads
 - **Dataset:** [UCSD Goodreads Book Graph](https://mengtingwan.github.io/data/goodreads.html)
