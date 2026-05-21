@@ -20,16 +20,16 @@
 
 ## 1. Model Selection Rationale
 
-### What was the task?
+### Goal to achieve!
 
 The goal was to classify Goodreads book reviews into 8 genres:
 `children`, `comics_graphic`, `fantasy_paranormal`, `history_biography`, `mystery_thriller_crime`, `poetry`, `romance`, `young_adult`.
 
 Each review is a short piece of text written by a reader. The model must read the review and predict which genre the book belongs to.
 
-### Two notebooks were compared
+### Two Models were compared
 
-| | DistilBERT Notebook | RoBERTa Notebook |
+| | DistilBERT | RoBERTa  |
 |--|--|--|
 | Model | `distilbert-base-cased` | `FacebookAI/roberta-base` |
 | Parameters | ~66M | ~125M |
