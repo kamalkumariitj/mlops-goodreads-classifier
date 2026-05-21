@@ -11,7 +11,7 @@
 
 | Resource | Link |
 |----------|------|
-| GitHub Repository | *(add your public GitHub repo URL here)* |
+| GitHub Repository | https://github.com/kamalkumariitj/mlops-goodreads-classifier |
 | Kaggle Notebook | https://www.kaggle.com/code/kamalkumarg25ait2028/g25ait2028-mlops-a2-classifying-goodreads |
 | Hugging Face Model | https://huggingface.co/kamalchaurasia-iitj/goodreads-reviews-genres |
 | W&B Project Dashboard | https://wandb.ai/kamalchaurasia-iit-jodhpur/MLOps-Goodreads-Reviews |
