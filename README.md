@@ -47,7 +47,6 @@ pip install -r requirements.txt
 ```bash
 export WANDB_API_KEY=<your W&B API key>
 export HF_TOKEN=<your Hugging Face token>
-export HF_REPO_ID=kamalchaurasia-iitj/goodreads-reviews-genres
 ```
 
 ### 3. Training platform
